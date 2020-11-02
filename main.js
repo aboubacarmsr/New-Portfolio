@@ -88,36 +88,6 @@ new simpleParallax(image, {
   scale: 1.8,
 });
 
-// var image = document.getElementsByClassName("project-1-img");
-// new simpleParallax(image, {
-//   scale: 1.8,
-// });
-
-// var image = document.getElementsByClassName("project-2-img");
-// new simpleParallax(image, {
-//   scale: 1.8,
-// });
-
-// var image = document.getElementsByClassName("project-3-img");
-// new simpleParallax(image, {
-//   scale: 1.8,
-// });
-
-// var image = document.getElementsByClassName("project-4-img");
-// new simpleParallax(image, {
-//   scale: 1.8,
-// });
-
-// var image = document.getElementsByClassName("project-5-img");
-// new simpleParallax(image, {
-//   scale: 1.8,
-// });
-
-// var image = document.getElementsByClassName("project-6-img");
-// new simpleParallax(image, {
-//   scale: 1.8,
-// });
-
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
