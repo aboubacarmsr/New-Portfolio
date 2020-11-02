@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Aboubacar's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ANIMEJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- IONICONS -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <!-- SCROLL REVEAL ANIMATIONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css"
+    />
+    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+
+    <!-- SIMPLE PARALLAX -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+  </head>
+  <body>
+    <!-- HERO SECTION -->
+    <a name="home"></a>
+    <div class="wrapper">
+      <div class="bands">
+        <div class="layer layer-1"></div>
+        <div class="layer layer-2"></div>
+        <div class="layer layer-3"></div>
+      </div>
+      <section class="hero-section">
+        <!-- TOGGLE BUTTON -->
+        <div class="menu-toggle">
+          <ion-icon name="menu"></ion-icon>
+        </div>
+
+        <!-- SOCIAL MEDIA ICONS -->
+        <div class="media">
+          <ul>
+            <li>
+              <a href="https://github.com/aboubacarmsr" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            </li>
+            <li>
+              <a href="https://dribbble.com/AboubacarMsr" target="_blank"><ion-icon name="logo-dribbble"></ion-icon></a>
+            </li>
+            <li>
+              <a href="https://codepen.io/aboubacarmsr" target="_blank"><ion-icon name="logo-codepen"></ion-icon></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- VIEW PHOTOS LINK -->
+        <div class="view-photos">
+          <a href="#projects">projects</a>
+        </div>
+
+        <!-- HERO-IMAGE -->
+        <div class="hero-img">
+          <img src="images/photo.jpg" class="hero-img-parallax" />
+        </div>
+
+        <!-- HERO-TITLE -->
+        <div class="hero-title">
+          <h1>Aboubacar Mansare</h1>
+        </div>
+        <div class="overlay">
+          <div class="close-btn">
+            <ion-icon name="close"></ion-icon>
+          </div>
+          <div class="menu">
+            <ul>
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <a name="about"></a>
+      <section class="about-section">
+        <div class="container">
+          <div class="row">
+            <div class="about-heading col-lg-6">
+              <h1 class="wow fadeInUp" data-wow-delay="0.2s">About</h1>
+            </div>
+            <div class="about-content col-lg-6">
+              <h2 class="wow fadeInUp" data-wow-delay="0.3s">
+                Hi, i'm Aboubacar
+              </h2>
+              <h3 class="wow fadeInUp" data-wow-delay="0.4s">
+                UI Designer - Front End Developer
+              </h3>
+              <p class="wow fadeInUp" data-wow-delay="0.5s">
+                22 years old. Graduated with a Bachelor of Computer Sciences.
+                I'm a self-taught Web Designer and Developer. I can create
+                beautiful designs and transform them into working websites with
+                HTML, CSS, JavaScript and React.
+              </p> 
+              <div class="about-link wow fadeInUp" data-wow-delay="0.6s">
+                <a href="./resume.pdf" download="resume">DOWNLOAD MY RESUME</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <a name="projects"></a>
+      <section class="project-section">
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="arrow-down">
+                  <ion-icon
+                    name="arrow-down"
+                    class="wow fadeInUp"
+                    data-wow-delay="0.2s"
+                  ></ion-icon>
+                </div>
+              </div>
+              <div class="project-heading col-lg-6">
+                <h1 class="wow fadeInUp" data-wow-delay="0.3s">PROJECTS</h1>
+                <p class="wow fadeInUp" data-wow-delay="0.4s">
+                  Find below a showcase of some of my latest projects. I have a
+                  lot more on my Github, Dribbble, Behance and CodePen accounts. Don't hesitate to take a look
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="projects">
+            <div class="row project-row">
+              <div class="project project-1 col-lg-6">
+                <img
+                  src="images/project-1.jpg"
+                  class="project-1-img project-img img-responsive fit-image"
+                />
+                <div class="middle">
+                  <div class="text">
+                    <h1 class="project-name">Portfolio</h1>
+                    <p>Responsive Portfolio Concept for an Interior Designer</p>
+                  </div>
+                  <a href="https://compassionate-wright-cb0212.netlify.app/" target="_blank">
+                    <ion-icon name="globe"></ion-icon>
+                  </a>
+                  <a href="https://github.com/aboubacarmsr/Interior-Designer-Portfolio" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </div>
+              </div>
+              <div class="project project-2 col-lg-6">
+                <img
+                  src="images/project-2.jpg"
+                  class="project-2-img project-img img-responsive fit-image"
+                />
+                <div class="middle">
+                  <div class="text">
+                    <h1 class="project-name">Photography</h1>
+                    <p>Landing page concept for a photographer's portfolio</p>
+                  </div>
+                  <a href="https://infallible-haibt-e0023c.netlify.app/" target="_blank">
+                    <ion-icon name="globe"></ion-icon>
+                  </a>
+                  <a href="https://github.com/aboubacarmsr/Photographer-Portfolio" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row project-row">
+              <div class="project project-3 col-lg-6">
+                <img
+                  src="images/project-3.jpg"
+                  class="project-3-img project-img img-responsive fit-image"
+                />
+                <div class="middle">
+                  <div class="text">
+                    <h1 class="project-name">Album</h1>
+                    <p>Rap Album promotion concept page</p>
+                  </div>
+                  <a href="https://unruffled-swartz-0a34d1.netlify.app/" target="_blank">
+                    <ion-icon name="globe"></ion-icon>
+                  </a>
+                  <a href="https://github.com/aboubacarmsr/Rap-Album-Landing-Page" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </div>
+              </div>
+              <div class="project project-4 col-lg-6">
+                <img
+                  src="images/project-4.jpg"
+                  class="project-4-img project-img img-responsive fit-image"
+                />
+                <div class="middle">
+                  <div class="text">
+                    <h1 class="project-name">Parallax</h1>
+                    <p>Photos showcase with Parallax effect</p>
+                  </div>
+                  <a href="https://quirky-tereshkova-cc568b.netlify.app/" target="_blank">
+                    <ion-icon name="globe"></ion-icon>
+                  </a>
+                  <a href="https://github.com/aboubacarmsr/Parallax-Effect" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row project-row">
+              <div class="project project-5 col-lg-6">
+                <img
+                  src="images/react.png"
+                  class="project-5-img project-img img-responsive fit-image"
+                />
+                <div class="middle">
+                  <div class="text">
+                    <h1 class="project-name">ReactJS</h1>
+                    <p>Project coming soon...</p>
+                  </div>
+                </div>
+              </div>
+              <div class="project project-6 col-lg-6">
+                <img
+                  src="images/react.png"
+                  class="project-6-img project-img img-responsive fit-image"
+                />
+                <div class="middle">
+                  <div class="text">
+                    <h1 class="project-name">ReactJS</h1>
+                    <p>Project coming soon...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <a name="contact"></a>
+      <section class="social-media">
+        <div class="container">
+          <div class="row">
+            <div class="sm-heading col-lg-6">
+              <h1 class="wow fadeInUp" data-wow-delay="0.2s">Reach out</h1>
+            </div>
+            <div class="sm-content col-lg-6">
+              <h3 class="wow fadeInUp" data-wow-delay="0.4s">
+                aboubacarmsr@gmail.com
+              </h3>
+              <p class="wow fadeInUp" data-wow-delay="0.5s">
+                I am currently looking for a long term internship or a full-time position. 
+                If you find any interest on my work, please hit me up and let's make awesome websites together.
+              </p>
+                <!-- <p class="wow fadeInUp" data-wow-delay="0.6s">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio ducimus natus hic dolorem voluptate dolore officiis
+                  neque aperiam similique! Obcaecati vel et atque nesciunt quia
+                  quis expedita nulla, cum autem eius itaque incidunt, ut delectus
+                  vitae. Cupiditate minima debitis aliquam!
+                </p> -->
+            </div>
+          </div>
+          <div class="col-lg-12 text-left">
+            <div class="social-icons">
+              <ul>
+                <li class="wow fadeInUp" data-wow-delay="0.7s">
+                  <a href="https://github.com/aboubacarmsr" target="_blank">github</a>
+                </li>
+                <li class="wow fadeInUp" data-wow-delay="0.8s">
+                  <a href="https://dribbble.com/AboubacarMsr" target="_blank">dribbble</a>
+                </li>
+                <li class="wow fadeInUp" data-wow-delay="0.9s">
+                  <a href="https://www.behance.net/aboubacarme9f1" target="_blank">behance</a>
+                </li>
+                <li class="wow fadeInUp" data-wow-delay="1.1s">
+                  <a href="https://codepen.io/aboubacarmsr" target="_blank">codepen</a>
+                </li>
+                <li class="wow fadeInUp" data-wow-delay="1.3s">
+                  <a href="https://www.facebook.com/aboubacarmsr/" target="_blank">facebook</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script>
+      new WOW().init();
+
+      var textWrapper = document.querySelector(".hero-title");
+      textWrapper.innerHTML = textWrapper.textContent.replace(
+        /\S/g,
+        "<span class='letter'>$&</span>"
+      );
+      $(document).ready(function () {
+        anime.timeline({ loop: false }).add({
+          targets: ".hero-title .letter",
+          translateY: [120, 0],
+          translateZ: 0,
+          opacity: [0, 1],
+          easing: "easeOutExpo",
+          duration: 1400,
+          delay: (el, i) => 2000 + 40 * i,
+        });
+      });
+
+      var t1 = new TimelineMax({ paused: true });
+
+      TweenMax.from(".hero-logo", 2, {
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut,
+        delay: 1,
+      });
+
+      TweenMax.from(".menu-toggle", 2, {
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut,
+        delay: 1.2,
+      });
+
+      TweenMax.from(".view-photos", 2, {
+        y: 20,
+        opacity: 0,
+        ease: Expo.easeInOut,
+        delay: 1.4,
+      });
+
+      TweenMax.staggerFrom(
+        ".media ul li",
+        2,
+        {
+          y: 20,
+          opacity: 0,
+          ease: Expo.easeInOut,
+          delay: 1.6,
+        },
+        0.1
+      );
+
+      t1.to(".overlay", 1, {
+        opacity: 1,
+        ease: Expo.easeInOut,
+      });
+
+      t1.to(".view-photos, .media", 1, {
+        opacity: 0,
+        ease: Expo.easeInOut,
+      });
+
+      t1.staggerFrom(
+        ".menu ul li",
+        1,
+        { y: 100, opacity: 0, ease: Expo.easeOut },
+        0.1
+      );
+
+      t1.reverse();
+      $(document).on("click", ".menu-toggle", function () {
+        t1.reversed(!t1.reversed());
+      });
+
+      $(document).on("click", ".close-btn", function () {
+        t1.reversed(!t1.reversed());
+      });
+
+      t1.reverse();
+      $(document).on("click", "li", function () {
+        t1.reversed(!t1.reversed());
+      });
+
+      var image = document.getElementsByClassName("hero-img-parallax");
+      new simpleParallax(image, {
+        scale: 1.8,
+      });
+      
+      var image = document.getElementsByClassName("project-1-img");
+      new simpleParallax(image, {
+        scale: 1.8,
+      });
+
+      var image = document.getElementsByClassName("project-2-img");
+      new simpleParallax(image, {
+        scale: 1.8,
+      });
+
+      var image = document.getElementsByClassName("project-3-img");
+      new simpleParallax(image, {
+        scale: 1.8,
+      });
+
+      var image = document.getElementsByClassName("project-4-img");
+      new simpleParallax(image, {
+        scale: 1.8,
+      });
+
+      var image = document.getElementsByClassName("project-5-img");
+      new simpleParallax(image, {
+        scale: 1.8,
+      });
+
+      var image = document.getElementsByClassName("project-6-img");
+      new simpleParallax(image, {
+        scale: 1.8,
+      });
+
+      // Select all links with hashes
+      $('a[href*="#"]')
+        // Remove links that don't actually link to anything
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .click(function (event) {
+          // On-page links
+          if (
+            location.pathname.replace(/^\//, "") ==
+              this.pathname.replace(/^\//, "") &&
+            location.hostname == this.hostname
+          ) {
+            // Figure out element to scroll to
+            var target = $(this.hash);
+            target = target.length
+              ? target
+              : $("[name=" + this.hash.slice(1) + "]");
+            // Does a scroll target exist?
+            if (target.length) {
+              // Only prevent default if animation is actually gonna happen
+              event.preventDefault();
+              $("html, body").animate(
+                {
+                  scrollTop: target.offset().top,
+                },
+                1000,
+                function () {
+                  // Callback after animation
+                  // Must change focus!
+                  var $target = $(target);
+                  $target.focus();
+                  if ($target.is(":focus")) {
+                    // Checking if the target was focused
+                    return false;
+                  } else {
+                    $target.attr("tabindex", "-1"); // Adding tabindex for elements not focusable
+                    $target.focus(); // Set focus again
+                  }
+                }
+              );
+            }
+          }
+        });
+
+        //Bands
+        gsap.to('.layer-1', {y: '-100vh', delay: .6});
+        gsap.to('.layer-2', {y: '-100vh', delay: .8});
+        gsap.to('.layer-3', {y: '-100vh', delay: 1.0});
+        gsap.to('.bands', {y: '-100vh', delay: 1.5});
+    </script>
+  </body>
+</html>
