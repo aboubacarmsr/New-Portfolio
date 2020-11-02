@@ -153,7 +153,7 @@ body {
 
 @media (max-width: 900px) {
   .hero-title .letter {
-    font-size: 38px !important;
+    font-size: 24px !important;
   }
 }
 
@@ -368,18 +368,18 @@ body {
     font-size: 30px;
     padding: 10px 0;
   }
-  .menu-toggle{
+  /* .menu-toggle{
     right: 20px;
   }
   .media{
     right: 20px;
-  }
-  .about-section{
+  } */
+  /* .about-section{
     padding: 120px 20px;
   }
   .project-section{
     padding: 120px 20px;
-  }
+  } */
   .project-section h1{
     font-size: 64px;
   }
