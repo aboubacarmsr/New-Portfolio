@@ -212,7 +212,7 @@ body {
 }
 
 .project-section h1 {
-  font-size: 84px;
+  font-size: 48px;
   font-family: "Times New Roman";
   text-transform: uppercase;
   color: white;
@@ -227,6 +227,10 @@ body {
   margin-bottom: 120px;
 }
 
+.project-heading h1{
+  font-size: 80px;
+}
+
 .project-section ion-icon {
   color: white;
   font-size: 148px;
@@ -239,7 +243,7 @@ body {
 }
 
 .project-name{
-  font-size: 64px;
+  font-size: 48px;
   font-family: "Times New Roman";
   text-transform: uppercase;
   color: white;
